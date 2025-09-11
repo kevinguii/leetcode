@@ -10,7 +10,7 @@ def findDisappearedNumbers(nums):
     # O(n) time
 #     return list(set(range(1, len(nums)+1)) - set(nums))
     
-    # brute force O(n)
+    # brute force O(n^2), O(n) space
 #     missing = []
 #     length = len(nums)+1
 #     for i in range(1,length):
