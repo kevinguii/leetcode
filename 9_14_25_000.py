@@ -89,3 +89,8 @@ def spiralMatrix(matrix):
 	return res
 
 print(spiralMatrix(matrix))
+
+# 268. Missing Number
+def missingNumber(nums):
+	# return (set(range(len(nums))-set(nums)))
+	return sum(range(len(nums)))-sum(nums)
