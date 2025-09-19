@@ -16,3 +16,5 @@ def letterCasePermutation(s):
 				temp.append(o+c)
 		output = temp
 	return output
+
+print(letterCasePermutation("a1b2"))
