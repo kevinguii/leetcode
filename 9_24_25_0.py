@@ -23,6 +23,11 @@ def isPalindrome(head):
 	return True
 
 # Merge Two Sorted Lists
+class ListNode:
+	def __init__(self,val,next):
+		self.val = val
+		self.next = next
+
 def mergeTwoLists(list1,list2):
 	# create dummy
 	# append the lower value between two lists until one is empty

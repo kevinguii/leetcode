@@ -24,6 +24,5 @@ def timeRequiredToBuy(tickets, k):
 				return result
 			if tickets[i] == 0:
 				continue
-			if tickets[i] >= 1:
-				tickets[i] -=1
-				result +=1
+			tickets[i] -=1
+			result +=1
