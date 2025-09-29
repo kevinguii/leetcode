@@ -39,7 +39,7 @@ def removeElements(head,val):
 		curr = curr.next
 	return dummy.next
 
-# Remove LL II
+# Reverse LL II
 def reverseBetween(head,left,right):
 	dummy = ListNode(0,head)
 	left_prev, curr = dummy, head
@@ -58,3 +58,4 @@ def reverseBetween(head,left,right):
 	left_prev.next.next = curr
 	left_prev.next = prev
 	return dummy.next
+

@@ -35,7 +35,7 @@ def coinChange(coins,amount):
 		for coin in coins:
 			if (i-coin)>=0:
 				dp[i] = min(dp[i],1+dp[i-coin])
-	return -1 if dp[amount+1]==amount+1 else dp[amount+1]
+	return -1 if dp[amount]==amount+1 else dp[amount]
 
 # Climb Stairs
 # climbing a staircase with n steps, takes 1 or 2 steps every time, max # of ways to climb to the top

@@ -90,3 +90,4 @@ def sortedSquares(nums):
 	return res
 	# nums = [num**2 for num in nums]
 	# return nums.sort()
+	
