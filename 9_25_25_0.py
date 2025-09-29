@@ -61,7 +61,6 @@ class Stack:
 		return len(self.stack) == 0
 
 # Time Needed To Buy Tickets
-
 # better: everyone before k will get all their tickets, find min between them and # tickets k needs, for people after, same except # tickets k needs -1
 # since we'll stop when k gets their tickets
 def timeRequiredToBuy(tickets,k):
