@@ -273,7 +273,7 @@ def sameTree(p,q):
 	return True
 
 def sameTree(p,q):
-	q = stack[(p,q)]
+	q = [(p,q)]
 	while q:
 		node1, node2 = q.pop()
 		if not node1 and not node2:
