@@ -1,4 +1,4 @@
-# diameter of a binary tree
+# diameter of a binary tree 
 def diameterBinaryTree(self,root):
 	self.diameter = 0
 	def depth(root):

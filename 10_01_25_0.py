@@ -1,4 +1,4 @@
-from collections import deque
+from collections import deque 
 # Max Min Val of Tree
 def maxValTree(root):
 	q = deque([root])

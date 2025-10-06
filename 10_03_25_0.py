@@ -1,4 +1,4 @@
-# Search in a Binary Search Tree
+# Search in a Binary Search Tree 
 # O(n) time and O(1) space
 def searchBST(root,val):
 	while root:
