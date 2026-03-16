@@ -1,5 +1,5 @@
 # 155. Min Stack
-# https://leetcode.com/problems/merge-two-sorted-lists/submissions/1780702633/
+# https://leetcode.com/problems/min-stack/description/
 
 # approach: append, pop, top are all easy, just getting min in O(1) time
 # combat this by storing current_min with every append to the stack
