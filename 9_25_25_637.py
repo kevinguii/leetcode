@@ -15,7 +15,7 @@ def averageOfLevels(root):
 		for i in range(level_len):
 			node = q.popleft()
 			level_sum+=node.val
-			if node.left: q.append(node.right)
-			if node.right: q.append(node.left)
+			if node.left: q.append(node.left)
+			if node.right: q.append(node.right)
 		res.append(level_sum/level_len)
 	return res
